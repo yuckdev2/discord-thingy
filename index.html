@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord Webhook Tutorial</title>
+    <title>discord thing</title>
   </head>
   <body>
     <button onclick="sendMessage()">Send</button>
@@ -12,14 +12,14 @@
   <script>
     function sendMessage() {
       var request = new XMLHttpRequest();
-      request.open("POST", "https://discordapp.com/api/webhooks/676118118082281513/ZS5YcWhurzokBrKX9NgexqtxrJA5Pu2Bo4i7_JsIxC-JIbPBVhSZkcVVukGOro52rnQA");
+      request.open("POST", "https://discord.com/api/webhooks/833811396449271808/0na9t5L7qV_PGMthQrnAkFwE5diyplUvm7vivzhwJuFscyL31lxGYU7lvfTPYpURJvyM");
 
       request.setRequestHeader('Content-type', 'application/json');
 
       var params = {
         username: "atomic_ozzy's private slave- i meant messenger",
         avatar_url: "",
-        content: "Oh shit it actually works"
+        content: "oh shit it actually works"
       }
 
       request.send(JSON.stringify(params));
